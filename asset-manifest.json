@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/FerasResume/static/css/main.9bdd701d.css",
-    "main.js": "/FerasResume/static/js/main.1de63dd1.js",
+    "main.js": "/FerasResume/static/js/main.306690cb.js",
     "static/js/453.f19e9853.chunk.js": "/FerasResume/static/js/453.f19e9853.chunk.js",
     "static/media/headerCover.jpg": "/FerasResume/static/media/headerCover.e17f03318456ab6b63f0.jpg",
     "static/media/FerasAljoudi.jpg": "/FerasResume/static/media/FerasAljoudi.850335c7ebd6402f9842.jpg",
     "index.html": "/FerasResume/index.html",
     "main.9bdd701d.css.map": "/FerasResume/static/css/main.9bdd701d.css.map",
-    "main.1de63dd1.js.map": "/FerasResume/static/js/main.1de63dd1.js.map",
+    "main.306690cb.js.map": "/FerasResume/static/js/main.306690cb.js.map",
     "453.f19e9853.chunk.js.map": "/FerasResume/static/js/453.f19e9853.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bdd701d.css",
-    "static/js/main.1de63dd1.js"
+    "static/js/main.306690cb.js"
   ]
 }
