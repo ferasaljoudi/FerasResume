@@ -9,13 +9,9 @@ import './Header.css';
 import headerCover from './headerCover.jpg';
 
 function Header() {
-  const counterCode = `<div class="visitor-counter">
-        <script language="javascript" src="http://hitcounters.net/counter.php?id=11536&cmd=cookie"></script>
-        <span id="visitorCountImage">
-          <img src="http://hitcounters.net/counter.php?id=11536&cmd=img_only" alt="VisitorsCounts" border="0" >
-        </span>
-        <span id="visitorCountText">Visitors</span>
-        </div>`;
+  const counterCode = `<div id="sfc4ybqewfdx8cf7essz5fkfe5z8gp6jb6z"></div>
+  <script type="text/javascript" src="https://counter11.optistats.ovh/private/counter.js?c=4ybqewfdx8cf7essz5fkfe5z8gp6jb6z&down=async" async></script>
+  <br><a href="https://www.freecounterstat.com">page counter</a><noscript><a href="https://www.freecounterstat.com" title="page counter"><img src="https://counter11.optistats.ovh/private/freecounterstat.php?c=4ybqewfdx8cf7essz5fkfe5z8gp6jb6z" border="0" title="page counter" alt="page counter"></a></noscript>`;
 
   return (
     <div>
@@ -47,6 +43,7 @@ function Header() {
         <p id='me'>Currently pursuing a Bachelor of Applied Science in Software Systems Engineering
         at the University of Regina, with an expected graduation date in April 2025.</p>
       </header>
+      <section dangerouslySetInnerHTML={{ __html: counterCode }} />
     
     </div>
   );
