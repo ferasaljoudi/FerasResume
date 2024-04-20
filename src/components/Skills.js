@@ -5,13 +5,45 @@ import { FaJava, FaPython, FaReact } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa6";
 import { SiCodio, SiCplusplus, SiMysql, SiPaloaltosoftware } from 'react-icons/si';
 import { TiHtml5 } from "react-icons/ti";
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import './Skills.css';
 
-
+const leftInVariants = {
+  hidden: {
+    x: -200,
+    opacity: 0
+  },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      type: "spring",
+      stiffness: 25
+    }
+  }
+};
 
 function Skills() {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    rootMargin: '-100px 0px',
+  });
+
+  React.useEffect(() => {
+    if (inView) {
+      controls.start('visible');
+    }
+  }, [controls, inView]);
   return (
     <section className="skills">
+      <motion.section
+      ref={ref}
+      initial="hidden"
+      animate={controls}
+      variants={leftInVariants}
+      >
       <h2><SiPaloaltosoftware size={25}/> Skills</h2>
       <p style={{ textAlign: 'center' }}>
         <a style={{ color: 'black' }} href="https://www.w3schools.com/cpp/" target="_blank" rel="noopener noreferrer">
@@ -79,6 +111,7 @@ function Skills() {
         
         <li><b>Management Skills:</b> Leveraging expertise in interpersonal communication, team leadership, and strategic business analysis</li>
       </ul>
+      </motion.section>
     </section>
   );
 }

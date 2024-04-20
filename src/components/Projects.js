@@ -1,14 +1,45 @@
 import React from 'react';
-
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import './Projects.css';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import { FaProjectDiagram } from "react-icons/fa";
 
+const leftInVariants = {
+  hidden: {
+    x: +200,
+    opacity: 0
+  },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      type: "spring",
+      stiffness: 25
+    }
+  }
+};
 
 export default function Projects() {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    rootMargin: '-100px 0px',
+  });
 
+  React.useEffect(() => {
+    if (inView) {
+      controls.start('visible');
+    }
+  }, [controls, inView]);
   return (
     <section className='projects'>
+      <motion.section
+      ref={ref}
+      initial="hidden"
+      animate={controls}
+      variants={leftInVariants}
+      >
       <h2><FaProjectDiagram size={28}/> Projects</h2>
       <br></br>
       <Tabs>
@@ -116,7 +147,7 @@ export default function Projects() {
           </TabPanel>
         </TabPanels>
       </Tabs>
-
+      </motion.section>
     </section>
   );
 }
