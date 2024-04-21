@@ -8,9 +8,10 @@
         margin-right: auto;
         margin-left: auto;
         color: black;
+        background-color: rgb(238, 238, 238);
         }
         .skills h2 {
-            background-color: rgb(178, 182, 186);
+            background-color: rgb(167, 170, 173);
             text-align: center;
             margin-top: 0;
             margin-bottom: 15px;
@@ -38,12 +39,12 @@
     margin-left: auto;
     padding: 50px;
     color: black;
-    background-color: white; 
+    background-color: rgb(238, 238, 238);
     border: 1.5px solid black;
     width: 44%;
     }
     .skills h2 {
-        background-color: rgb(178, 182, 186);
+        background-color: rgb(167, 170, 173);
         text-align: center;
         margin-top: 0;
         margin-bottom: 15px;

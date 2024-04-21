@@ -1,6 +1,7 @@
 @media only screen and (max-width: 800px) {
     .experience 
     {
+      background-color: rgb(238, 238, 238);
       border: 1.5px solid black;
       width: 90%;
       padding: 10px;
@@ -11,7 +12,7 @@
       }
       
       .experience h2 {
-        background-color: rgb(178, 182, 186);
+        background-color: rgb(167, 170, 173);
         text-align: center;
         margin-top: 0;
         margin-bottom: 15px;
@@ -51,13 +52,13 @@
       margin-left: auto;
       margin-right: auto;
       padding: 15px;
-      background-color: #ffffff;
+      background-color: rgb(238, 238, 238);
       border: 1.5px solid black;
       width: 80%;
       }
       
       .experience h2 {
-        background-color: rgb(178, 182, 186);
+        background-color: rgb(167, 170, 173);
         text-align: center;
         margin-top: 0;
         margin-bottom: 15px;

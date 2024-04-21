@@ -1,5 +1,6 @@
 @media only screen and (max-width: 800px) {
     .projects {
+        background-color: rgb(238, 238, 238);
         border: 1.5px solid black;
         width: 90%;
         padding: 10px;
@@ -9,7 +10,7 @@
         margin-left: auto;
     }
     .projects h2 {
-        background-color: rgb(178, 182, 186);
+        background-color: rgb(167, 170, 173);
         text-align: center;
         margin-top: 0;
         margin-bottom: 15px;
@@ -19,7 +20,7 @@
     }
     .tabList {
         border-radius: 20px;
-        font-size: 10px;
+        font-size: 10.4px;
         display: flex;
         justify-content: center;
         size: 50px;
@@ -54,9 +55,10 @@
     padding: 50px;
     border: 1.5px solid black;
     width: 44%;
+    background-color: rgb(238, 238, 238);
     }
     .projects h2 {
-        background-color: rgb(178, 182, 186);
+        background-color: rgb(167, 170, 173);
         text-align: center;
         margin-top: 0;
         margin-bottom: 10px;
