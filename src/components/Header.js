@@ -29,7 +29,7 @@ function Header() {
                     <p><AiOutlineGithub id='AiOutlineGithub'/>
                         <a href="https://github.com/ferasaljoudi" target="_blank" rel="noopener noreferrer" style={{ marginRight: '15px' }}>GitHub</a>
                         <FaLinkedin id='FaLinkedin' />
-                        <a href="https://ca.linkedin.com/in/feras-al-joudi-539727242" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://ca.linkedin.com/in/feras-aljoudi-539727242" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     </p>
                     </div>
                 </div>
