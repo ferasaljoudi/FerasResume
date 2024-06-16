@@ -90,7 +90,7 @@ function Experience() {
             </h2>
             <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div className="accordion-body">
-                <p>YM Inc Urban Planet, Regina (Nov 2018 - Dec 2021)</p>
+                <p>YM Inc Urban Planet, Regina (Nov 2018 - Dec 2022)</p>
                 <ul>
                 <li>Managing schedules and making sure the store needs are covered.</li>
                 <li>Making monthly sales targets.</li>
