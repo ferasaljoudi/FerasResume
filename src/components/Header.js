@@ -4,9 +4,9 @@ import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { FaHome } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-import profilePic from './assets/FerasAljoudi.jpg';
+import profilePic from '../assets/FerasAljoudi.jpg';
 import './Header.css';
-import headerCover from './assets/headerCover.jpg';
+import headerCover from '../assets/headerCover.jpg';
 
 function Header() {
     return (
