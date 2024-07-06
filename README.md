@@ -24,12 +24,15 @@ This project is an interactive online <a href="https://ferasaljoudi.github.io/Fe
             <a href="https://v2.chakra-ui.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Right/chakraUi.svg" alt="Chakra UI">
         </td>
     </tr>
+</table>
+<table>
     <tr>
         <td>
             <a href="https://pages.github.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/CloudAndDatabases/Left/githubPages.svg" alt="Github Pages"></a>
         </td>
     </tr>
 </table>
+
 </div>
 
 <br>
