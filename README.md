@@ -28,8 +28,6 @@ This project is an interactive online <a href="https://ferasaljoudi.github.io/Fe
         <td>
             <a href="https://pages.github.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/CloudAndDatabases/Left/githubPages.svg" alt="Github Pages"></a>
         </td>
-        <td></td>
-        <td></td>
     </tr>
 </table>
 </div>
