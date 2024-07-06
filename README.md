@@ -24,15 +24,12 @@ This project is an interactive online <a href="https://ferasaljoudi.github.io/Fe
             <a href="https://v2.chakra-ui.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Right/chakraUi.svg" alt="Chakra UI">
         </td>
     </tr>
-</table>
-<table>
     <tr>
         <td>
             <a href="https://pages.github.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/CloudAndDatabases/Left/githubPages.svg" alt="Github Pages"></a>
         </td>
     </tr>
 </table>
-
 </div>
 
 <br>
@@ -45,9 +42,10 @@ This project is an interactive online <a href="https://ferasaljoudi.github.io/Fe
 - <b>Interactive Elements:</b> Incorporates interactive components such as modals, dropdowns, and hover effects to enhance user engagement.
 - <b>Dynamic Content:</b> React's state management is used to dynamically update content, offering a more interactive user experience than a traditional static resume.
 
+<br>
 <div align = "center">
 
-### <a href="https://ferasaljoudi.github.io/FerasResume/" title="Feras Resume">My Resume</a>
+<a href="https://ferasaljoudi.github.io/FerasResume/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/Resumes/react.svg" alt="React Resume"></a>
 
 </div>
 
