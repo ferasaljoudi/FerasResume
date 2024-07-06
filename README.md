@@ -12,12 +12,26 @@ This project is an interactive online <a href="https://ferasaljoudi.github.io/Fe
 <br>
 
 <div align = "center">
-
-[![React](https://img.shields.io/badge/-React-4D4D4D?style=for-the-badge&logo=react&logoColor=4479B0)](https://react.dev/)
-[![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
-[![Chakra UI](https://img.shields.io/badge/-Chakra_UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)](https://v2.chakra-ui.com/)
-[![GitHub Pages](https://img.shields.io/badge/-GitHub_Pages-181717?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com/)
-
+<table>
+    <tr>
+        <td>
+            <a href="https://react.dev/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Left/react.svg" alt="React"></a>
+        </td>
+        <td>
+            <a href="https://getbootstrap.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Middle/bootstrap.svg" alt="Bootstrap"></a>
+        </td>
+        <td>
+            <a href="https://v2.chakra-ui.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Right/chakraUi.svg" alt="Chakra UI">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="https://pages.github.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/CloudAndDatabases/Left/githubPages.svg" alt="Github Pages"></a>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 </div>
 
 <br>
