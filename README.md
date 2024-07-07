@@ -15,18 +15,13 @@ This project is an interactive online <a href="https://ferasaljoudi.github.io/Fe
 <table>
     <tr>
         <td>
-            <a href="https://react.dev/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Left/react.svg" alt="React"></a>
-        </td>
-        <td>
-            <a href="https://getbootstrap.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Middle/bootstrap.svg" alt="Bootstrap"></a>
-        </td>
-        <td>
-            <a href="https://v2.chakra-ui.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Right/chakraUi.svg" alt="Chakra UI">
-        </td>
-    </tr>
-    <tr>
-        <td>
             <a href="https://pages.github.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/CloudAndDatabases/Left/githubPages.svg" alt="Github Pages"></a>
+            <br>
+            <a href="https://react.dev/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Left/react.svg" alt="React"></a>
+            <br>
+            <a href="https://getbootstrap.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Middle/bootstrap.svg" alt="Bootstrap"></a>
+            <br>
+            <a href="https://v2.chakra-ui.com/"><img src="https://raw.githubusercontent.com/ferasaljoudi/AssetsRepository/main/Badges/WebDevelopment/Right/chakraUi.svg" alt="Chakra UI">
         </td>
     </tr>
 </table>
