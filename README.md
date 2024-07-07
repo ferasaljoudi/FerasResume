@@ -3,7 +3,11 @@
 </div>
 <br>
 
+<div align = "center">
+
 This project is an interactive online <a href="https://ferasaljoudi.github.io/FerasResume/" title="Feras Resume" style="text-decoration: underline;">Resume</a> created using React, Bootstrap, and Chakra UI. It showcases my skills, experiences, and projects in a dynamic and user-friendly format. The resume is deployed on GitHub Pages for easy accessibility.
+
+</div>
 
 <br>
 <div style="width: 100%;">
