@@ -27,14 +27,17 @@ function Header() {
                     <p><FaHome id='FaHome'/> : Regina, Sk. Canada</p>
                     {/* <hr></hr> */}
                     <p><AiOutlineGithub id='AiOutlineGithub'/>
-                        <a href="https://github.com/ferasaljoudi" target="_blank" rel="noopener noreferrer" style={{ marginRight: '15px' }}>GitHub</a>
+                        <a href="https://github.com/ferasaljoudi" target="_blank" rel="noopener noreferrer" title="My GitHub" style={{ marginRight: '15px' }}>GitHub</a>
                         <FaLinkedin id='FaLinkedin' />
-                        <a href="https://ca.linkedin.com/in/feras-aljoudi-539727242" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://ca.linkedin.com/in/feras-aljoudi-539727242" target="_blank" rel="noopener noreferrer" title="My LinkedIn">LinkedIn</a>
                     </p>
                     </div>
                 </div>
-                <p id='me'>Currently pursuing a Bachelor of Applied Science in Software Systems Engineering
-                at the University of Regina, with an expected graduation date in April 2025.</p>
+                <p id='me'>Please note that this is an outdated version of my resume. For my most recent resume, 
+                    kindly visit <strong><a href="https://resume.aljoudi.ca/" target="_blank" rel="noopener noreferrer" title="My Resume">https://resume.aljoudi.ca</a></strong>. 
+                    For more information about me, please explore my portfolio 
+                    at <strong><a href="https://aljoudi.ca/" target="_blank" rel="noopener noreferrer" title="My Portfolio">https://aljoudi.ca</a></strong>.</p>
+
             </header>
         </div>
     );

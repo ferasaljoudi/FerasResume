@@ -159,7 +159,7 @@
 
     .right a {
         margin-right: 10px;
-        color: #1E90FF;
+        color: #008cff;
         font-size: 22px;
         font-weight: 600;
         text-decoration: underline;
@@ -178,16 +178,12 @@
         padding: 5px;
     }
 
-    .light-blue-icon {
-        color: #135fca;
-    }
-
     #me {
         border: 1px rgb(221, 214, 214);
         width: 40%;
         padding: 10px;
         color: white;
-        font-size: large;
+        font-size: larger;
         position: relative;
         margin-top: 50px;
         margin-bottom: 50px;
