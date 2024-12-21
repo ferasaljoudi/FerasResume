@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineGithub } from "react-icons/ai";
-import { BsFillTelephoneForwardFill } from "react-icons/bs";
+// import { BsFillTelephoneForwardFill } from "react-icons/bs";
 import { FaHome } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -23,7 +23,7 @@ function Header() {
                     <h1 id='contact'>Contact</h1>
 
                     <p><MdEmail id='MdEmail'/> : feras.aljoudi@gmail.com</p>
-                    <p><BsFillTelephoneForwardFill id='BsFillTelephoneForwardFill'/> : (306)209-1033</p>
+                    {/* <p><BsFillTelephoneForwardFill id='BsFillTelephoneForwardFill'/> : (306)###-####</p> */}
                     <p><FaHome id='FaHome'/> : Regina, Sk. Canada</p>
                     {/* <hr></hr> */}
                     <p><AiOutlineGithub id='AiOutlineGithub'/>
